@@ -3,5 +3,6 @@
 export(betaprop5)
 export(binomialmodel)
 export(efficientrand)
+export(pfweights)
 export(tangentpf)
 export(weighted.covar)
