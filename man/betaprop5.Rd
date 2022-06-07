@@ -2,22 +2,22 @@
 % Please edit documentation in R/betaprop56.R
 \name{betaprop5}
 \alias{betaprop5}
-\title{En funktion til beregning af beta som det fremg?r i prop 5/6}
+\title{En funktion til beregning af beta som det fremgaar i prop 5/6}
 \usage{
 betaprop5(sigma, mv, pf)
 }
 \arguments{
 \item{sigma}{covariansmatrix}
 
-\item{mv}{v?gte for markedsportef?ljen}
+\item{mv}{vaegte for markedsportefoljen}
 
-\item{pf}{v?gte for portef?ljen man er interesseret i at unders?ge}
+\item{pf}{vaegte for portef?ljen man er interesseret i at undersoege}
 }
 \value{
 beta
 }
 \description{
-En funktion til beregning af beta som det fremg?r i prop 5/6
+En funktion til beregning af beta som det fremgaar i prop 5/6
 }
 \examples{
 sigma <- matrix(c(.25,.10,.10,.36),ncol=2)

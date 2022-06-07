@@ -1,8 +1,8 @@
-#' En funktion til beregning af beta som det fremg?r i prop 5/6
+#' En funktion til beregning af beta som det fremgaar i prop 5/6
 #'
 #' @param sigma covariansmatrix
-#' @param mv v?gte for markedsportef?ljen
-#' @param pf v?gte for portef?ljen man er interesseret i at unders?ge
+#' @param mv vaegte for markedsportefoljen
+#' @param pf vaegte for portef?ljen man er interesseret i at undersoege
 #' @return beta
 #' @export
 #'
@@ -15,3 +15,4 @@ betaprop5 <- function(sigma, mv, pf){
   beta <- covar/sigmamv
   return(beta[1,1])
 }
+
